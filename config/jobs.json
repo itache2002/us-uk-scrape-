@@ -1,0 +1,9 @@
+{
+  "output": "output/leads.xlsx",
+  "concurrency": 5,
+  "retries": 3,
+  "timeout": 20,
+  "jobs": [
+    {"country": "US", "city": "Dallas", "category": "plumber", "limit": 100}
+  ]
+}
